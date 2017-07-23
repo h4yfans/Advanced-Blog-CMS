@@ -2,6 +2,10 @@
 // @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 // Variables
 @import "variables";
-@import "node_modules/font-awesome/scss/font-awesome";// Font Awesome
-@import "node_modules/bulma/bulma"; // Bulma
-@import "node_modules/buefy/src/scss/buefy"; // Bulma Vue Modules
+@import "../../../node_modules/font-awesome/scss/font-awesome"; // Font Awesome
+@import "../../../node_modules/bulma/bulma"; // Bulma
+@import "../../../node_modules/buefy/src/scss/buefy"; // Bulma Vue Moduless
+@import "overrides"; // Custom SASS Pages
+@import "helpers";
+@import "styles";
+

@@ -79,7 +79,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            <a href="karacakaan.com">KaracaKaan.com</a>
+            <a href="www.karacakaan.com" style="color: inherit; text-decoration: none;">KaracaKaan.com</a>
         </div>
     </div>
 </div>

@@ -28,7 +28,7 @@
                             <p class="control">
                                 <input
                                         class='input {{$errors->has('password') ? ' is-danger' : ''}}'
-                                        type="text"
+                                        type="password"
                                         name="password"
                                         id="password"
                                         placeholder="Password">

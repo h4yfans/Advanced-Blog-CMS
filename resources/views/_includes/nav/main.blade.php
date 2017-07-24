@@ -24,26 +24,33 @@
                 <button class="dropdown is-aligned-right nav-item is-tab" >
                     Hey {{ Auth::user()->name }}
                     <ul class="dropdown-menu" style="overflow: visible;">
-                        <li><a href="#">
-                  <span class="icon">
-                    <i class="fa fa-fw fa-user-circle-o m-r-5"></i>
-                  </span>Profile
+                        <li>
+                            <a href="#">
+                                <span class="icon">
+                                    <i class="fa fa-fw fa-user-circle-o m-r-5"></i>
+                                </span>Profile
                             </a>
                         </li>
-                        <li><a href="#">
-                  <span class="icon">
-                    <i class="fa fa-fw fa-bell m-r-5"></i>
-                  </span>Notifications
+                        <li>
+                            <a href="#">
+                                <span class="icon">
+                                    <i class="fa fa-fw fa-bell m-r-5"></i>
+                                </span>Notifications
                             </a>
                         </li>
-                        <li><a href="#">
-                  <span class="icon">
-                    <i class="fa fa-fw fa-cog m-r-5"></i>
-                  </span>Manage
+
+                        <li>
+                            <a href="{{route('manage.dashboard')}}">
+                                <span class="icon">
+                                    <i class="fa fa-fw fa-cog m-r-5"></i>
+                                </span>Manage
                             </a>
                         </li>
+
                         <li class="seperator"></li>
-                        <li><a href="{{route('logout')}}" onclick="event.preventDefault();
+
+                        <li>
+                            <a href="{{route('logout')}}" onclick="event.preventDefault();
                      document.getElementById('logout-form').submit();">
                   <span class="icon">
                     <i class="fa fa-fw fa-sign-out m-r-5"></i>
